@@ -2,7 +2,7 @@
 
 workdir=/home/rapids
 
-docker run --name tialiu-polars-benchmark-1 --rm \
+docker run --name tialiu-polars-benchmark --rm \
 --workdir=$workdir \
 --gpus all --pull always -it --privileged=true --cap-add=SYS_ADMIN --user=root \
 --mount type=bind,src=$(pwd)/../polars-benchmark,dst=$workdir/polars-benchmark \
