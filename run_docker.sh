@@ -9,4 +9,4 @@ docker run --name tialiu-polars-benchmark --rm \
 --mount type=bind,src=.,dst=$workdir \
 --hostname=custom-polars-benchmark \
 --entrypoint="$workdir/entrypoint.sh" \
-rapidsai/base:25.04a-cuda12.8-py3.12
+rapidsai/base:25.06a-cuda12.8-py3.13
