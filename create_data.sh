@@ -10,5 +10,5 @@ cd $polar_bench_dir
 
 # SCALE_FACTOR=100.0 make data/tables/
 
-# SCALE_FACTOR=1.0 make tables-pyarrow
-SCALE_FACTOR=100.0 make tables-pyarrow
+# SCALE_FACTOR=1.0 PATH_TABLES=data/tables make tables-pyarrow
+SCALE_FACTOR=100.0 PATH_TABLES=data/tables make tables-pyarrow
