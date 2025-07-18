@@ -2,12 +2,17 @@
 Create data for polars benchmark
 
 ## Steps
-- Create and run the docker container:
+- Create the docker image
+  ```
+  ./create_image.sh
+  ```
+
+- Create and run the docker container
   ```
   ./run_docker.sh
   ```
 
-- In the container, create the data:
+- In the container, create the data
   ```
   ./create_data.sh
   ```

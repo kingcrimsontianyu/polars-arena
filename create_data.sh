@@ -2,6 +2,7 @@
 
 # If there is data generation error, remove the .venv directory in $polar_bench_dir, and rerun.
 
+
 polar_bench_dir=/home/rapids/polars-benchmark
 
 cd $polar_bench_dir/tpch-dbgen

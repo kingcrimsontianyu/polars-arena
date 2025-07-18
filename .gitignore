@@ -1,1 +1,2 @@
-polars-benchmark/**
+polars-benchmark
+venv
